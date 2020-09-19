@@ -10,6 +10,6 @@ class InstagramBot:
 
     def downloadUserPosts(self):
         if(self.username == ""):
-            print("You must initialize a username")
+            print("You must initialize the bot with a username")
         else:
             downloadinstaposts.download_instagram_posts(self.username)
